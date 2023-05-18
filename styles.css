@@ -1,0 +1,35 @@
+body {
+    background: darkblue;
+}
+
+.fill {
+    background-image: image('img/hoop.png');
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+    border: 3px goldenrod;
+    background-color: white;
+}
+
+.hold {
+    border: solid, blanchedalmond 4px;
+}
+
+hovered {
+    background: green;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
